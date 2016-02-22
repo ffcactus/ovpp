@@ -1,0 +1,14 @@
+p {
+    color : red;
+}
+
+/* Dialog */
+div.dialog {
+    background: #e6ff99;
+    border-radius: 10px;
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

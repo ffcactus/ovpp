@@ -1,0 +1,14 @@
+{
+    "name" : "ov_simulator",
+    "version" : "0.0.1",
+    "description": "HPE OneView Simulator",
+    "license" : "UNLICENSED",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ffcactus/ov_simulator.git"  
+    },
+    "dependencies" : {
+        "express" : "latest",
+        "https" : "latest"
+    }
+}
