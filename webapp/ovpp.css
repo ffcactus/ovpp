@@ -28,11 +28,19 @@ html, body {
     -o-user-drag: none;
 } 
 
+.div_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
 div.background {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;
+   /* z-index: -1;*/
 }
 
 div.workspace {
@@ -64,4 +72,16 @@ div.app_icon {
     margin: 20px;
     padding: 10px;
     border: 0px;
+}
+
+.main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.fixer-container {
+    float: left;
+    position: relative;
+    left: -50%;
 }
